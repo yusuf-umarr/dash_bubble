@@ -27,6 +27,7 @@ apply plugin: 'kotlin-parcelize'
 
 android {
     compileSdkVersion 33
+    namespace 'dev.moaz.dash_bubble'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
